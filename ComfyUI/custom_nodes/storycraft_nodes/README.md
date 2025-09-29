@@ -8,14 +8,8 @@ StoryCraft is a suite of custom nodes for ComfyUI that allows you to generate a 
 
 This project includes the following nodes:
 
-*   `StoryCraft_ScenarioGenerator.py`: Generates a story blueprint from a pitch, including characters, settings, and music mood.
-*   `StoryCraft_CharacterSheetGenerator.py`: Creates reference images for all characters, settings, and props.
-*   `StoryCraft_StoryboardGenerator.py`: Generates a scene-by-scene storyboard with detailed prompts for image and video generation.
-*   `StoryCraft_SceneSelector.py`: A utility node to select and process a single scene from the storyboard.
-*   `StoryCraft_SceneVideoGenerator.py`: Generates a video clip for a single scene.
-*   `StoryCraft_AudioGenerator.py`: Generates the voiceover and background music for a scene.
-*   `StoryCraft_VideoStitcher.py`: Assembles the final video by stitching together all the generated video and audio assets.
 *   `StoryCraft_Combined.py`: An all-in-one node that encapsulates the entire video generation pipeline, providing a simplified user experience.
+*   `storycraft_prompts.py`: A helper file that contains the prompts used by the `StoryCraft_Combined` node.
 
 ### `StoryCraft_Combined` Node
 
